@@ -1,0 +1,27 @@
+.parent {
+  font-style: italic;
+  font-size: 50px;
+}
+.parent .child {
+  color: red;
+}
+.parent .child:hover {
+  color: blue;
+}
+.parent .child-first {
+  background-color: gray;
+}
+.parent .child-second {
+  background-color: green;
+}
+
+.placeholder {
+  color: red;
+  font-size: 50px;
+}
+
+.get-it-changed, .placeholder {
+  font-style: italic;
+}
+
+/*# sourceMappingURL=output.css.map */

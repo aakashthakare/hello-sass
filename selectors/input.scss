@@ -1,0 +1,36 @@
+$commonFontColor : red;
+$commonFontSize: 50px;
+
+.parent {
+    font-style : italic;
+    font-size : 50px;
+
+    .child {
+        color : $commonFontColor;
+
+        &:hover {
+            color : blue;
+        }
+
+        &-first {
+            background-color: gray;
+        }
+
+        &-second {
+            background-color: green;
+        }
+    }
+}
+
+%my-placeholder {
+    color : $commonFontColor;
+    font-size : $commonFontSize;
+}
+
+.placeholder {
+    @extend %my-placeholder;
+}
+
+.get-it-changed,  %my-placeholder {
+    font-style: italic;
+}

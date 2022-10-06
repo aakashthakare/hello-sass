@@ -1,0 +1,22 @@
+$minFontSize : 50px;
+
+.baseStyle:hover {
+    color : red;
+    border :  1px solid green;
+}
+
+.how {
+    @extend .baseStyle;
+    font-size : $minFontSize;
+}
+
+.to {
+    @extend .baseStyle;
+    font-size : $minFontSize * 2;
+}
+
+.extend {
+    @extend .baseStyle;
+    font-style: italic;
+    font-size : $minFontSize * 3;
+}

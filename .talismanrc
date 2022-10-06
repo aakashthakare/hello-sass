@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: wed/output.css
+  checksum: 211634ab4a0134b0285bd8ee6ceae0c9433d8c23402c078f6a59983d0ce10088
+version: ""

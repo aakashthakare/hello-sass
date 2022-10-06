@@ -1,0 +1,18 @@
+@function failedFellow($size) {
+    @debug "Size value : #{$size}";
+
+    @if calc($size / 2) != 0 {
+        @warn "Odd size.";
+    }
+
+    @if $size < 0 {
+        @error "How dare you pass negative value?";
+    }
+}
+
+body {
+
+    .wed {
+       font-size: failedFellow(-10px);
+    }
+}

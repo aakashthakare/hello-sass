@@ -1,0 +1,5 @@
+@use 'forwarded';
+
+.useIt {
+    @include forwarded.base(50px);
+}

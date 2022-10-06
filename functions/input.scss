@@ -1,0 +1,18 @@
+@function figureOutSizeOfFunctioning($whatIsIt, $whatIs) {
+    @return ($whatIsIt + $whatIs) * 2
+}
+
+$fontSizeOfIs : 100px;
+$fontSizeOfIt : 200px;
+
+.is {
+    font-size: $fontSizeOfIs;
+}
+
+.it {
+    font-size: $fontSizeOfIt;
+}
+
+.functioning {
+    font-size: figureOutSizeOfFunctioning($fontSizeOfIs, $fontSizeOfIt);
+}

@@ -1,0 +1,28 @@
+@mixin blackBox($size, $borderSize : 0) {
+    width : $size;
+    height : $size;
+    margin : 10px;
+    text-align: center;
+    color : white;
+    font-size: calc($size / 10);
+    background-color: black;
+
+    @if $borderSize != 0 {
+        border : $borderSize solid red;
+    }
+}
+
+body {
+
+    .mixinBox1 {
+        @include blackBox(300px, 2px);
+    }
+    
+    .mixinBox2 {
+        @include blackBox(300px, 2px);
+    
+        &:hover {
+            background-color: blue;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+$the_global_color : green;
+
+body {
+    $the_color : red;
+    background-color : $the_global_color;
+
+    h1 {
+        color: $the-color;
+    }
+
+    h2 {
+        color: $the_color;
+    }
+
+    h3 {
+        color: $the-color;
+    }
+
+    h4 {
+        color: $the_color;
+    }
+}

@@ -1,0 +1,19 @@
+.baseStyle:hover, .import:hover, .to:hover, .how:hover {
+  color: blue;
+  border: 1px solid red;
+}
+
+.how {
+  font-size: 50px;
+}
+
+.to {
+  font-size: 100px;
+}
+
+.import {
+  font-style: italic;
+  font-size: 150px;
+}
+
+/*# sourceMappingURL=output.css.map */

@@ -1,0 +1,15 @@
+$fontSize : 50px;
+$border : 1px solid red;
+
+.how {
+    font-size : $fontSize;
+    border: $border;
+}
+
+.to {
+    font-size : calc($fontSize / 2);
+}
+
+.express {
+    font-size : calc($fontSize * 2);
+}

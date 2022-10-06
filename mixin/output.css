@@ -1,0 +1,25 @@
+body .mixinBox1 {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  background-color: black;
+  border: 2px solid red;
+}
+body .mixinBox2 {
+  width: 300px;
+  height: 300px;
+  margin: 10px;
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  background-color: black;
+  border: 2px solid red;
+}
+body .mixinBox2:hover {
+  background-color: blue;
+}
+
+/*# sourceMappingURL=output.css.map */

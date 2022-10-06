@@ -1,0 +1,18 @@
+@import 'toimport/_base';
+@import 'toimport/_variables';
+
+.how {
+    @extend .baseStyle;
+    font-size : $minFontSize;
+}
+
+.to {
+    @extend .baseStyle;
+    font-size : $minFontSize * 2;
+}
+
+.import {
+    @extend .baseStyle;
+    font-style: italic;
+    font-size : $minFontSize * 3;
+}
